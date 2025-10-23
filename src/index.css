@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+/* ---- Fonts ---- */
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("./assets/font/Roboto_Condensed-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("./assets/font/Roboto_Condensed-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("./assets/font/Roboto_Condensed-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Cardo";
+  src: url("./assets/font/Cardo-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+.font-Roboto {
+  font-family: "Roboto Condensed";
+}
+.font-Cardo {
+  font-family: "Cardo";
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 480px) {
+  .container {
+    max-width: 440px;
+  }
+}
+@media (min-width: 640px) {
+  .container {
+    max-width: 600px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1440px;
+  }
+}
